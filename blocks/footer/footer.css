@@ -1,0 +1,55 @@
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer___copyright.css);
+@import url(./__links/footer__links.css);
+
+.footer{
+    margin: auto;
+    display: grid;
+    margin-top: 92px;
+    margin-bottom: 24px;
+
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        grid-template-columns: auto auto;
+        min-width: 720px;
+        max-width: 1184px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .footer {
+        margin-left: 48px;
+        margin-right: 48px;
+        grid-template-columns: auto auto;
+        min-width: 720px;
+        max-width: 1184px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        margin-left: 24px;
+        margin-right: 24px;
+        grid-template-columns: auto auto;
+        min-width: 720px;
+        max-width: 1184px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .footer {
+        grid-template-rows: auto auto;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .footer {
+        grid-template-rows: auto auto;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

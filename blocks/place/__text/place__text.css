@@ -1,0 +1,6 @@
+.place__text {
+    grid-area: text;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 24px;
+}

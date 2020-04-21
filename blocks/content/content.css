@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .content {
+        /*width: 984px;*/
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .content {
+        /*width: 928px;*/
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .content {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .content {
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .content {
+        width: 320px;
+    }
+}

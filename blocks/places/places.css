@@ -1,0 +1,6 @@
+.places {
+    margin-top: 92px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 80px;
+}
