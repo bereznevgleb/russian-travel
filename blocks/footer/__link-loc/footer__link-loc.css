@@ -1,0 +1,13 @@
+.footer__link-loc {
+
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link-loc {
+        margin: 0px;
+        padding: 0px;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+}

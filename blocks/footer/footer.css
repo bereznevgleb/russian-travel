@@ -1,6 +1,7 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer___copyright.css);
 @import url(./__links/footer__links.css);
+@import url(./__link-loc/footer__link-loc.css);
 
 .footer{
     margin: auto;
@@ -38,15 +39,7 @@
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
-    .footer {
-        grid-template-rows: auto auto;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
-}
-
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
     .footer {
         grid-template-rows: auto auto;
         margin-left: 16px;

@@ -1,0 +1,10 @@
+.header__logo-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    padding-top: auto;
+}

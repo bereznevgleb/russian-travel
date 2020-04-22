@@ -9,8 +9,10 @@
 <body class="page">
     <header class="header">
         <div class="header__logo"></div>
-        <a href="#" class="header__logo-link header_logo-link_underlining">Ru</a>
-        <a href="#" class="header__logo-link">En</a>
+        <ul class="header__logo-links">
+            <li class="header_logo-link-loc"><a href="#" class="header__logo-link header__logo-link_underlining">Ru</a></li>
+            <li class="header_logo-link-loc"><a href="#" class="header__logo-link">En</a></li>
+        </ul>
     </header>
     <main class="content">
         <section class="lead">
@@ -30,11 +32,11 @@
                 вашего отпуска.
             </p>
             <ul class="intro__list">
-                <li>Часовых поясов <span class="intro__list_nobold">11</span></li>
-                <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_nobold">12</span></li>
-                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_nobold">16</span></li>
-                <li>Природных заповедников <span class="intro__list_nobold">105</span></li>
-                <li>Аэропортов <span class="intro__list_nobold">241</span></li>
+                <li>Часовых поясов <span class="intro__nobold">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__nobold">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__nobold">16</span></li>
+                <li>Природных заповедников <span class="intro__nobold">105</span></li>
+                <li>Аэропортов <span class="intro__nobold">241</span></li>
             </ul>
         </section>
         <section class="photo_grid">
@@ -170,19 +172,20 @@
                     Транссибе и iframes — путешествие 
                     от столицы до Байкала на электричках.
                 </p>
-                </div>
             </a>
         </section>
     </main>
     <footer class="footer">
-        <nav class="footer__links">
-            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        <nav>
+            <ul class="footer__links">
+                <li class="footer__link-loc"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+                <li class="footer__link-loc"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+                <li class="footer__link-loc"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+                <li class="footer__link-loc"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+                <li class="footer__link-loc"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+            </ul>
         </nav>
-        <p class="footer__copyright">&copy 2020. Корнеев Кирилл</p>
+        <p class="footer__copyright">&copy2020. Корнеев Кирилл</p>
     </footer>
 </body>
 </html>
