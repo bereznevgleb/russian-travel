@@ -1,7 +1,7 @@
 @import url(./_underlining/header__logo-link_underlining.css);
 
 .header__logo-link {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
